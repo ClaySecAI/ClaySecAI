@@ -21,7 +21,8 @@ Setting-level controls for Claude across web, desktop, and CLI. Built to show th
 **[WinLogs](https://github.com/ClaySecAI/WinLogs)**
 A one-command logging setup for malware, DFIR, and detection-engineering labs. It began as a Windows 7-era PowerShell script. One task to Claude, "modernize," took it to current Windows, dropped the legacy LocalGPO dependency, added CI that needs no live lab, and extended it to Linux and macOS. The lesson for my teams: give an agent a clear outcome, and make automated tests the thing you trust.
 
-**Coming next: automating the boring stuff.** A collection of agent-driven automations for the repetitive work, built to be adapted by other teams. Published here once it's ready to share.
+**[Agents for the Boring Stuff](https://github.com/ClaySecAI/agents-for-the-boring-stuff)**
+The classic way to learn programming is to automate chores in code. This starts from the other end: you describe the chore, and an agent does it. A hands-on guide where every chapter follows the same pattern (propose, approve, apply, verify) and ships an agent, a skill, practice data, and a verifier script, so you learn to specify, scope, and check an agent's work and not just trust it. Early chapters cover files and folders, keeping data local with LM Studio, Ollama, or Apple's on-device model, and running it on a schedule. More chapters are planned, including a security reviewer that reads your commits.
 
 More tools and write-ups coming here as they're ready to share.
 
