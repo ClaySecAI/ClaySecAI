@@ -25,3 +25,7 @@ More tools and write-ups coming here as they're ready to share.
 ### Talk to me
 
 Building security tooling with agents, or trying to roll AI out without losing control of it? Open an issue on the baseline or find me on [LinkedIn](https://www.linkedin.com/in/clayton-darnell).
+
+---
+
+*Views and projects here are my own. They do not represent my employer, past or present, and contain no employer data.*
