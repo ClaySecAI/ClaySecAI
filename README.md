@@ -7,6 +7,7 @@ The harder part is people, not code. I lead my teams through this shift: buildin
 ### What I'm exploring
 
 - **Agents as security engineers:** building detection, triage, hardening, and reporting tooling with Claude Code and the Agent SDK
+- **Automating the boring stuff with agents, not scripts:** the repetitive work that eats a security team's week (updates, reporting, routine checks) handed to agents that can adapt when things change, so people spend their time on judgment
 - **Security operations run by agents:** briefings, evidence gathering, and routine checks handled automatically, with humans on the judgment calls
 - **Verification over vibes:** validators and evals so claims about a tool or control can be checked
 - **Leading my teams into it:** playbooks, working patterns, and training that move a security team from "AI-curious" to shipping with agents
@@ -19,6 +20,8 @@ Setting-level controls for Claude across web, desktop, and CLI. Built to show th
 
 **[WinLogs](https://github.com/ClaySecAI/WinLogs)**
 A one-command logging setup for malware, DFIR, and detection-engineering labs. It began as a Windows 7-era PowerShell script. One task to Claude, "modernize," took it to current Windows, dropped the legacy LocalGPO dependency, added CI that needs no live lab, and extended it to Linux and macOS. The lesson for my teams: give an agent a clear outcome, and make automated tests the thing you trust.
+
+**Coming next: automating the boring stuff.** A collection of agent-driven automations for the repetitive work, built to be adapted by other teams. Published here once it's ready to share.
 
 More tools and write-ups coming here as they're ready to share.
 
