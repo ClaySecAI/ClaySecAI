@@ -17,6 +17,9 @@ The harder part is people, not code. I lead security teams through this shift: b
 **[Claude Enterprise Control Baseline](https://github.com/ClaySecAI/claude-enterprise-control-baseline)**
 Setting-level controls for Claude across web, desktop, and CLI. Built to show the approach end to end: CI that validates its own claims against primary sources, and a weekly watcher that flags upstream drift. It exists because no vendor or standards body had published one yet.
 
+**[WinLogs](https://github.com/ClaySecAI/WinLogs)**
+A one-command logging setup for malware, DFIR, and detection-engineering labs. It began as a Windows 7-era PowerShell script. One task to Claude, "modernize," took it to current Windows, dropped the legacy LocalGPO dependency, added CI that needs no live lab, and extended it to Linux and macOS. The lesson for teams: give an agent a clear outcome, and make automated tests the thing you trust.
+
 More tools and write-ups coming here as they're ready to share.
 
 ### Talk to me
