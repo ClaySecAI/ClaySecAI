@@ -1,6 +1,6 @@
 ## Clayton: building security tools with agents
 
-Security teams don't need to wait for vendors to ship the tooling they need. With agents, one practitioner can build in days what used to take a team a quarter. I use agents to build security tools and automate security work, then publish what works, what breaks, and how to do it safely.
+My teams don't need to wait for vendors to ship the tooling they need. With agents, one practitioner can build in days what used to take a team a quarter. I use agents to build security tools and automate security work, then publish what works, what breaks, and how to do it safely.
 
 The harder part is people, not code. I lead my teams through this shift: building the skills, habits, and guardrails that let a whole team work this way, so it scales beyond one person with a good prompt.
 
@@ -18,7 +18,7 @@ The harder part is people, not code. I lead my teams through this shift: buildin
 Setting-level controls for Claude across web, desktop, and CLI. Built to show the approach end to end: CI that validates its own claims against primary sources, and a weekly watcher that flags upstream drift. It exists because no vendor or standards body had published one yet.
 
 **[WinLogs](https://github.com/ClaySecAI/WinLogs)**
-A one-command logging setup for malware, DFIR, and detection-engineering labs. It began as a Windows 7-era PowerShell script. One task to Claude, "modernize," took it to current Windows, dropped the legacy LocalGPO dependency, added CI that needs no live lab, and extended it to Linux and macOS. The lesson for teams: give an agent a clear outcome, and make automated tests the thing you trust.
+A one-command logging setup for malware, DFIR, and detection-engineering labs. It began as a Windows 7-era PowerShell script. One task to Claude, "modernize," took it to current Windows, dropped the legacy LocalGPO dependency, added CI that needs no live lab, and extended it to Linux and macOS. The lesson for my teams: give an agent a clear outcome, and make automated tests the thing you trust.
 
 More tools and write-ups coming here as they're ready to share.
 
